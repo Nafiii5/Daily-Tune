@@ -1,0 +1,67 @@
+/* Pink theme for DailyTune */
+
+.root {
+    -fx-background-color: #ffe6f0; /* soft pink background */
+}
+
+.label {
+    -fx-text-fill: #d63384; /* deep pink text */
+    -fx-font-weight: bold;
+}
+
+/* Menghapus style inline dari FXML dan menggunakan class */
+.text-field {
+    -fx-background-color: #fff0f5; /* lavender blush */
+    -fx-border-color: #d63384;
+    -fx-border-radius: 5;
+    -fx-text-fill: #d63384;
+    -fx-prompt-text-fill: #d63384; /* Mengatur warna placeholder */
+}
+
+.date-picker {
+    -fx-background-color: #fff0f5; /* lavender blush */
+    -fx-border-color: #d63384;
+    -fx-border-radius: 5;
+    -fx-text-fill: #d63384;
+}
+
+.hyperlink {
+    -fx-text-fill: #ff69b4; /* hot pink */
+}
+
+/* Menggunakan styleClass pada Button */
+.add-button {
+    -fx-background-color: #ffb6c1;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.edit-button {
+    -fx-background-color: #ff85a2;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.delete-button {
+    -fx-background-color: #ff4d6d;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+}
+
+.button:hover {
+    -fx-background-color: #ff69b4;
+}
+
+.table-view {
+    -fx-background-color: #fff0f5;
+    -fx-border-color: #d63384;
+    -fx-border-radius: 5; /* Border radius untuk TableView */
+}
+
+.table-column {
+    -fx-text-fill: #d63384;
+    -fx-font-weight: bold;
+}
